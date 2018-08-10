@@ -19,9 +19,6 @@ My pipeline consisted of 5 steps. First, I converted the images to grayscale, th
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by modifying the input parameters such as threshold=15, min_line_length=100, and max_line_gap = 100
 
-https://github.com/fishwater00/CarND-LaneLines-P1/blob/master/detect_line.png
-
-
 ### 2. Identify potential shortcomings with your current pipeline
 
 One potential shortcoming would be that  my drawed lines are not clear and clean as example video shown.
